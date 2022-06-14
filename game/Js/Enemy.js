@@ -38,10 +38,10 @@ let Enemy = {
 	        Radius:60,
 	        Angle:0,
 	        Radians:0,
-	        Speed:3,
-	        Type_Enemy:['./Image/Enemy/SpriteE1.png',
-	                   './Image/Enemy/SpriteE2.png',
-	                   './Image/Enemy/SpriteE3.png'
+	        Speed:5,
+	        Type_Enemy:['./game/Image/Enemy/SpriteE1.png',
+	                   './game/Image/Enemy/SpriteE2.png',
+	                   './game/Image/Enemy/SpriteE3.png'
 	                   ],
 				   });
 	                },
@@ -52,16 +52,18 @@ let Enemy = {
 		var Enemys = EnemysArray[i];
 		
 		
+		
 		if(Enemys.draw==true){
 			
-//~ 						
+						
 new Sprite(Enemys.x,Enemys.y,Enemys.X,Enemys.Y,Enemys.W,Enemys.H,Enemys.Type_Enemy[TypeEnemy],Enemys.Angle,'Meddle-Center').Draw();		
 
-new Square(Enemys.X-Enemys.W/2,Enemys.Y-Enemys.H/2+34,Enemys.W,Enemys.H-80,0,'Upper-Left', "rgba(8, 9, 0, 0.4)").Draw()
+//new Square(Enemys.X-Enemys.W/2,Enemys.Y-Enemys.H/2+34,Enemys.W,Enemys.H-80,0,'Upper-Left', "rgba(8, 9, 0, 0.4)").Draw()
 
-	new Circle(Enemys.X,Enemys.Y,Enemys.Radius, 'rgba(8, 9, 5, 0.4)').Draw();					}
-					}
-						
+//new Circle(Enemys.X,Enemys.Y,Enemys.Radius, 'rgba(8, 9, 5, 0.4)').Draw();					
+
+					  }
+					}		
                   },
     Move:function(X1,Y1,W1,H1){
 		
@@ -77,9 +79,9 @@ new Square(Enemys.X-Enemys.W/2,Enemys.Y-Enemys.H/2+34,Enemys.W,Enemys.H-80,0,'Up
 					
 					let A = Math.floor(Math.random() * 3)+1;
 						
-					if(A==1){Enemys.Y+=8; Enemys.X-=Enemys.Speed;}
-					if(A==2){Enemys.X-=Enemys.Speed;}
-					if(A==3){Enemys.y-=8; Enemys.X-=Enemys.Speed;}
+					//~ if(A==1){Enemys.Y+=8; Enemys.X-=Enemys.Speed;}
+					//~ if(A==2){Enemys.X-=Enemys.Speed;}
+					//~ if(A==3){Enemys.y-=8; Enemys.X-=Enemys.Speed;}
 					
 					if(Enemys.X>X1){  Enemys.X-=Enemys.Speed;   }
 				

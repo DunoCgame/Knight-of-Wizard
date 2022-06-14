@@ -12,8 +12,8 @@ const Player={
 		Speed:5,
 	    HP:5,
 	    MP:0,
-		Type_Player:['./Image/Player/SpriteKnight.png',
-		           './Image/Player/SpriteWizard.png'
+		Type_Player:['./game/Image/Player/SpriteKnight.png',
+		           './game/Image/Player/SpriteWizard.png'
 		           ],
                 Paint:function(PlayerSelect){
 					
@@ -24,13 +24,13 @@ new Sprite(Player.x,Player.y,Player.X,Player.Y,Player.W,Player.H,Player.Type_Pla
 
 
 //capa colision
-new Square(Player.X-Player.W/2,Player.Y-Player.H/2,Player.W-10,Player.H,0,'Upper-Left', "rgba(100, 141, 152, 0.4)").Draw(); 
+//new Square(Player.X-Player.W/2,Player.Y-Player.H/2,Player.W-10,Player.H,0,'Upper-Left', "rgba(100, 141, 152, 0.4)").Draw(); 
 
 
 //capa colision atacque
 
  
- new Circle(Player.X,Player.Y,Player.Radius, 'rgba(100, 140, 150, 0.4)').Draw(); 
+ //new Circle(Player.X,Player.Y,Player.Radius, 'rgba(100, 140, 150, 0.4)').Draw(); 
              
              
                 },

@@ -1,4 +1,5 @@
 //variables
+
 const Enter=13;
 const Space=32;
 const Left=37;
@@ -31,7 +32,7 @@ let PlayerLife=200;
 let EnemysArray =[];
 let EnemyNumber = 1;
 let EnemyDestroy=0;
-let TotalEnemyDestroy=1; //10
+let TotalEnemyDestroy=10; //10
 let EnemyCollision=false;
 let EnemyData={X:0, Y:0, W:0, H:0}
 let TypeEnemy=0;
@@ -52,7 +53,6 @@ let CollisionData={
 	}
 	
 Screen.Init();
-
-	
-	
 KeyboardEvents();
+
+

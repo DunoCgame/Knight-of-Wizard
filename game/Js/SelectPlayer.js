@@ -16,7 +16,7 @@ new Images(50,
            50,
            Screen.Canvas.width/2-100,
            Screen.Canvas.height-100,
-           './Image/Select-Players/Knight.png'
+           './game/Image/Select-Players/Knight.png'
            ).Draw();
 
 new Images(
@@ -24,10 +24,10 @@ new Images(
         50,
         Screen.Canvas.width/2-100,
         Screen.Canvas.height-100,
-        './Image/Select-Players/Wizard.png'
+        './game/Image/Select-Players/Wizard.png'
         ).Draw();
         
-new Text('Enter to Select','50px','Calibri','white',Screen.Canvas.width/2-150,Screen.Canvas.height-15).Draw();
+        new Text('Enter to Select','30px','Calibri','white',Screen.Canvas.width/2-100,Screen.Canvas.height-15).Draw();
         
                  if(Keyboard[Left] == true && Teclapress==0){
          	       DestelloPosX=45;

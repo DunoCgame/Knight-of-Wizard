@@ -1,15 +1,24 @@
 function Welcome(){
 
- new Images(0,
-           0,
-           Screen.Canvas.width,
-           Screen.Canvas.height,
-           './Image/Portada/Portada.png'
+
+new Images(0,0,Screen.Canvas.width,Screen.Canvas.height,'./game/Image/Portada/Portada.png'
            ).Draw();  
+
+     Time.Interval(5,10,true);
         
-        
-new Text('Press Enter','50px','Calibri','white',Screen.Canvas.width/2-150,Screen.Canvas.height-50).Draw();
-        
+	if(Time.State==true){
+		/*Action*/
+		new Text('Press Enter','52px','Calibri','#919400',Screen.Canvas.width/2-153,Screen.Canvas.height-50).Draw();;
+		
+        new Text('Press Enter','50px','Calibri','white',Screen.Canvas.width/2-150,Screen.Canvas.height-50).Draw();;
+	}
+	else{
+		
+		new Text('Press Enter','52px','Calibri','white',Screen.Canvas.width/2-153,Screen.Canvas.height-50).Draw();;
+			
+		new Text('Press Enter','50px','Calibri','#919400',Screen.Canvas.width/2-150,Screen.Canvas.height-50).Draw();
+		
+	}
         
         //game
         if(Keyboard[Enter] == true && Teclapress==0){

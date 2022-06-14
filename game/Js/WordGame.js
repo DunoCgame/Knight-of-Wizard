@@ -1,8 +1,8 @@
 
 function WordGame(AreaNumber){
-Area[0] = new Images(0,0,Screen.Canvas.width,Screen.Canvas.height,'./Image/Scene/1.png');
-Area[1] = new Images(0,0,Screen.Canvas.width,Screen.Canvas.height,'./Image/Scene/2.png');
-Area[2] = new Images(0,0,Screen.Canvas.width,Screen.Canvas.height,'./Image/Scene/3.png');
+Area[0] = new Images(0,0,Screen.Canvas.width,Screen.Canvas.height,'./game/Image/Scene/1.png');
+Area[1] = new Images(0,0,Screen.Canvas.width,Screen.Canvas.height,'./game/Image/Scene/2.png');
+Area[2] = new Images(0,0,Screen.Canvas.width,Screen.Canvas.height,'./game/Image/Scene/3.png');
 
       if(Teclapress==1 && Keyboard[Enter] == false){
 		

@@ -1,5 +1,7 @@
 function LoopGame(){
 	Screen.Clear();
+
+       
         if(SelectScene==scene[0]){Welcome();}
         if(SelectScene==scene[1]){Select_Player_Menu(); }
         if(SelectScene==scene[2]){
