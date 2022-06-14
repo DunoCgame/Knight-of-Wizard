@@ -27,7 +27,7 @@ new Square(200,Screen.Canvas.height/2+200,EnemyBossLife,30,0,"Upper-Left", "#CD0
 	
 	function Victory_GameOver(){
 		
-if(PlayerLife==1){new Text('You Death ','90px','Calibri','red',Screen.Canvas.width/2-200,Screen.Canvas.height/2).Draw();
+if(PlayerLife==1){new Text('You Dead ','90px','Calibri','red',Screen.Canvas.width/2-200,Screen.Canvas.height/2).Draw();
 	
 	
 	if(Keyboard[Enter] == true){

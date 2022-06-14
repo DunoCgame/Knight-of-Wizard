@@ -1,8 +1,9 @@
 function Welcome(){
 
 
-new Images(0,0,Screen.Canvas.width,Screen.Canvas.height,'./game/Image/Portada/Portada.png'
-           ).Draw();  
+new Images(0,0,Screen.Canvas.width,Screen.Canvas.height,'./game/Image/Portada/Portada.png').Draw(); 
+
+new Images(0,Screen.Canvas.height-300,300,260,'./game/Image/image/control.png').Draw();  
 
      Time.Interval(5,10,true);
         
