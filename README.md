@@ -4,6 +4,8 @@
 Es un Juego Sencillo 
 Creado con Javascript utilizando la Libreria [HorizonfrontierJs](https://www.npmjs.com/package/horizonfrontierjs).
 
+##Prueba
+[GitHub Pages](https://dunocgame.github.io/Knight-of-Wizard/)
 [Esta es una imagen](game/Image/Portada/Portada.png)
 [Esta es una imagen](game/Image/Portada/Select.png)
 [Esta es una imagen](game/Image/Select-Players/GamePlay.png)
