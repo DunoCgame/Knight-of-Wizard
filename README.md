@@ -6,6 +6,7 @@ Creado con Javascript utilizando la Libreria [HorizonfrontierJs](https://www.npm
 
 ## Prueba
 [GitHub Pages](https://dunocgame.github.io/Knight-of-Wizard/)
+## Images
 [Esta es una imagen](game/Image/Portada/Portada.png)
 [Esta es una imagen](game/Image/Portada/Select.png)
 [Esta es una imagen](game/Image/Select-Players/GamePlay.png)
